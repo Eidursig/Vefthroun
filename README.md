@@ -1,2 +1,2 @@
-# Eiður Sig
+# Eiður Þorsteinn Sigurðsson
 ## Grown ups...
