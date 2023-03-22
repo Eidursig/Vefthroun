@@ -21,6 +21,7 @@ p {
 body {
     border-style: solid;
     border-color: crimson;
+    padding-top: 2cm;
 }
 
 .rauður{
