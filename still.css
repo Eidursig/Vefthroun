@@ -1,0 +1,21 @@
+body {
+    background-color: aquamarine;
+}
+body {
+    max-width: 80 em;
+    margin: 0 auto;
+}
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    font-family: serif;
+    font-size: 14px;
+}
+body {
+    border-style: solid;
+    border-color: crimson;
+}
