@@ -1,0 +1,32 @@
+body{
+    max-width: 70%;
+    margin: 0 auto;
+    border: 2px;
+    padding: 10;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    
+    border: 1px solid;
+    border-color: green;
+    height: 40px;
+}
+
+.dalkar-3{
+    border: 1px solid;
+    border-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+h1{
+    top: auto;
+    align-items: center;
+}
