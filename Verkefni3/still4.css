@@ -1,6 +1,15 @@
 body{
     max-width: 70%;
     margin: auto;
+    text-align: center;
+    border: 2px solid;
+    border-color: blue;
+}
+
+header{
+    background-color: blue;
+    color: beige;
+    padding: 10px;
 }
 
 h1{
@@ -8,6 +17,21 @@ h1{
     border-color: aqua;
     grid-template-columns: 1fr;
 }
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
 
 footer{
     display: grid;
@@ -18,4 +42,9 @@ footer{
     border: 1px solid;
     border-color: blueviolet;
     height: 40px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
 }
