@@ -26,7 +26,19 @@ nav{
     align-items: center;
 }
 
-h1{
-    top: auto;
-    align-items: center;
+header{
+   border: 1px solid; 
+   border-color: aqua;
 }
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    
+    border: 1px solid;
+    border-color: blueviolet;
+    height: 40px;
+}
+
