@@ -1,0 +1,21 @@
+body{
+    max-width: 70%;
+    margin: auto;
+}
+
+h1{
+    border: 1px;
+    border-color: aqua;
+    grid-template-columns: 1fr;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    
+    border: 1px solid;
+    border-color: blueviolet;
+    height: 40px;
+}
