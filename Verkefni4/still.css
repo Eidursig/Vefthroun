@@ -1,3 +1,11 @@
+/* CSS sem sést alls staðar */
+div{
+    border: 1px solid;
+}
+.dalkar_3{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 body{
     max-width: 70%;
     margin: 0 auto;
@@ -32,5 +40,14 @@ body{
         color: red;
     }
     
+}
+
+@media screen and (min-width:768px) {
+    h1{
+        color: yellowgreen;
+    }
+    body{
+        background-color: aquamarine;
+    }
 }
 
