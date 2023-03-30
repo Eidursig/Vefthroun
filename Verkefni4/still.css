@@ -1,0 +1,29 @@
+body{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
+.dalkar-2{
+    border: 1px solid;
+    border-color: black;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.dalkar-3{
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.dalkar-5{
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+}
+
