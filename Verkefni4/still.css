@@ -2,6 +2,7 @@
 div{
     border: 1px solid;
 }
+
 .dalkar_3{
     display: grid;
     grid-template-columns: 1fr;
@@ -11,12 +12,11 @@ div{
 body{
     max-width: 70%;
     margin: 0 auto;
+    background: silver;
 }
 
 
 .dalkar-2{
-    border: 1px solid;
-    border-color: black;
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr;
@@ -25,19 +25,14 @@ body{
 
 
 .dalkar-5{
-    border: 1px solid;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
 }
 
 @media screen and (min-width:600px) {
-    h1{
-        color: red;
-    }
+
     .dalkar-2{
-        border: 1px solid;
-        border-color: black;
         padding: 10px;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -46,11 +41,11 @@ body{
 }
 
 @media screen and (min-width:768px) {
-    h1{
-        color: yellowgreen;
-    }
-    body{
-        background-color: aquamarine;
+    .dalkar_3{
+        padding: 10;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
     }
 }
 
