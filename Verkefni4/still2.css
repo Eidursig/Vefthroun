@@ -1,0 +1,84 @@
+header{
+    background-color: silver;
+    
+}
+
+footer{
+    background-color: beige;
+    
+}
+
+h3{
+   color: red;
+   text-decoration: double;
+}
+
+
+body{
+    background-color: gold;
+    max-width: 70%;
+    margin: auto;
+    border: 15px;
+    padding: 1px;
+    border-style: double;
+    
+}
+
+.dalkar-2{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    background-color: burlywood;
+}
+
+.dalkar-3{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    background-color: snow;
+}
+
+.dalkar-4{
+    padding: 10;
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-gap: 15px;
+    background-color: aquamarine;
+}
+
+@media screen and (min-width:600px) {
+
+    .dalkar-2{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+    }
+
+    .dalkar-4{
+        padding: 10;
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-gap: 15px;
+}
+
+
+    @media screen and (min-width:768px) {
+        .dalkar-3{
+            padding: 10;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 15px;
+        }
+
+        .dalkar-4{
+            padding: 10;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 15px;
+        }
+    }
+
+    

@@ -3,9 +3,11 @@ div{
     border: 1px solid;
 }
 
-.dalkar_3{
+.dalkar-3{
+    padding: 10px;
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 15px;
 }
 
 
@@ -38,23 +40,26 @@ body{
         grid-template-columns: 1fr 1fr;
         grid-gap: 15px;
     }
+
+    .dalkar-5{
+        padding: 10;
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-gap: 15px;
 }
 
 @media screen and (min-width:768px) {
-    .dalkar_3{
+    .dalkar-3{
         padding: 10;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 15px;
     }
-}
 
-@media screen and (min-width:768px) {
     .dalkar-5{
         padding: 10;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
         grid-gap: 15px;
     }
 }
-
