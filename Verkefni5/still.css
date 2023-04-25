@@ -1,4 +1,7 @@
-
+body{
+    max-width: fit-content;
+    background-color: red;
+}
 
 img { 
     max-width:100%;
