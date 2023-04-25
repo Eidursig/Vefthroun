@@ -1,6 +1,9 @@
 body{
     max-width: fit-content;
     background-color: red;
+    border: 1px;
+    padding: 1px;
+    border-width: 180px;
 }
 
 img { 
