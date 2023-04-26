@@ -8,6 +8,9 @@ body{
 
 header{
     text-decoration: double;
+    border: 1px;
+    padding: 1px;
+    background-color: rebeccapurple;
 }
 
 img { 
