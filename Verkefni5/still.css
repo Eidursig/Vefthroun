@@ -6,6 +6,10 @@ body{
     border-width: 180px;
 }
 
+header{
+    text-decoration: double;
+}
+
 img { 
     max-width:100%;
     height: auto;
