@@ -7,10 +7,14 @@ body{
 }
 
 header{
-    text-decoration: double;
     border: 1px;
     padding: 1px;
     background-color: rebeccapurple;
+}
+
+h1{
+    text-decoration: double;
+    text-decoration-color: white;
 }
 
 img { 
