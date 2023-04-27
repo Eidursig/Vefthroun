@@ -1,9 +1,6 @@
 body{
     max-width: fit-content;
     background-color: red;
-    border: 1px;
-    padding: 1px;
-    border-width: 180px;
 }
 
 header{
@@ -36,7 +33,15 @@ img {
 .Adam-Sandler{
     display: grid;
     grid-template-columns: 1fr;
+    background-color: crimson;
 }
+
+body {
+    border-style: solid;
+    border-color: aquamarine;
+    padding-top: 1px;
+}
+
 
 
 @media screen and (min-width: 480px) {
