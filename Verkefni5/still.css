@@ -35,17 +35,9 @@ img {
 
 .Adam-Sandler{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
-@media screen and (min-width:480px) {
-    .Adam-Sandler{
-        display: grid;
-        grid-gap: 15px;
-        grid-template-columns: 1fr;
-    }
-    
-}
 
 @media screen and (min-width: 480px) {
 
@@ -58,7 +50,12 @@ img {
 }
 
 @media screen and (min-width: 960px) {
-    
+    .Adam-Sandler{
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+    }
+
     .myndarod{
         display: grid;
         grid-gap: 15px;
