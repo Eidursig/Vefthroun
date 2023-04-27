@@ -33,6 +33,20 @@ img {
     grid-template-columns: 1fr;
 }
 
+.Adam-Sandler{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (min-width:480px) {
+    .Adam-Sandler{
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr;
+    }
+    
+}
+
 @media screen and (min-width: 480px) {
 
     .myndarod{
