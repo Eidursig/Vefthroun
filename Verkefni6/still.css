@@ -12,6 +12,7 @@ body{
     bottom: 50px;
     right: 50px;
     border-radius: 50%;
+    font-size: 50px;
 }
 
 html{
@@ -34,6 +35,10 @@ article{
     float: left; 
     border: 1px;
     padding: 1px;
+}
+
+.Hljóðskrá{
+    color: yellow;
 }
 
     
