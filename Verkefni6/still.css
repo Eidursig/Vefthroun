@@ -3,6 +3,21 @@ body{
     background-color: blue; 
 }
 
+.upp{
+    background-color: silver;
+    width: 100px;
+    height: 100px;
+
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     color: yellow;
     border: 1px;
