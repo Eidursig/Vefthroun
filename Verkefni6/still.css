@@ -48,6 +48,16 @@ article{
     padding: 1px;
 }
 
+aside{
+    color: yellow;
+    float: right;
+    font-size: larger;
+}
+
+footer{
+    background-color: rebeccapurple;
+}
+
 .Hljóðskrá{
     color: yellow;
 }
