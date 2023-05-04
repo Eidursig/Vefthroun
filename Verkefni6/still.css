@@ -72,6 +72,13 @@ footer{
     justify-items: center;
 }
 
+.footer{
+    border: 1px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
     
 @media screen and (min-width: 480px) {
 
