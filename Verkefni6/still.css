@@ -1,6 +1,7 @@
 body{
     max-width: fit-content;
     background-color: blue; 
+    color: yellow;
 }
 
 .upp{
@@ -13,6 +14,7 @@ body{
     right: 50px;
     border-radius: 50%;
     font-size: 50px;
+    text-align: center;
 }
 
 html{
@@ -66,7 +68,7 @@ footer{
     border: 1px;
     padding: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
 }
 
