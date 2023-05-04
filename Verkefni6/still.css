@@ -29,6 +29,12 @@ header{
 h1{
     font-style: oblique;
     text-align: center;
+    color: yellow;
+}
+
+p{
+    color: yellow;
+    font-style: italic;
 }
 
 body{
