@@ -32,9 +32,8 @@ h1{
     color: yellow;
 }
 
-p{
+.Plot{
     color: yellow;
-    font-style: italic;
 }
 
 body{
