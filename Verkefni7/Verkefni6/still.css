@@ -1,0 +1,100 @@
+body{
+    max-width: fit-content;
+    background-color: blue; 
+    color: yellow;
+}
+
+.upp{
+    background-color: silver;
+    width: 100px;
+    height: 100px;
+
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+    border-radius: 50%;
+    font-size: 50px;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    color: yellow;
+    border: 1px;
+    padding: 1px;
+    background-color: rebeccapurple;
+}
+
+h1{
+    font-style: oblique;
+    text-align: center;
+    color: yellow;
+}
+
+.Plot{
+    color: yellow;
+}
+
+body{
+    font-family: 'Dela Gothic One', cursive;
+}
+
+article{
+    color: yellow;
+    float: left; 
+    border: 1px;
+    padding: 1px;
+}
+
+aside{
+    color: yellow;
+    float: right;
+    font-size: larger;
+}
+
+.footer{
+    border: 1px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    justify-items: center;
+    background-color: rebeccapurple;
+    color: yellow;
+}
+
+.Hljóðskrá{
+    color: yellow;
+}
+
+.valmynd{
+    background-color: yellowgreen;
+    border: 1px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+    
+@media screen and (min-width: 480px) {
+
+    .trailer{
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+    
+
+
+
+
+    
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
