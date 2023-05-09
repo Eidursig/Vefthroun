@@ -1,6 +1,6 @@
 body{
     max-width: fit-content;
-    background-color: blue; 
+    background-color: purple; 
     color: yellow;
 }
 
@@ -77,6 +77,12 @@ aside{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+}
+
+form{
+    border: 1px;
+    padding: 5px;
+    border-style: double;
 }
 
     
