@@ -25,7 +25,7 @@ tr:nth-child(even){
 }
 
 thead{
-    background-color: silver;
+    background-color: blue;
 }
 
 @media screen and (max-width:500px) {
