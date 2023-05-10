@@ -1,5 +1,46 @@
 table{
     width: 100%;
     text-align: center;
+    border: 2px solid;
+    border-color: red;
+}
+
+td, th{
     border: 0.5px solid;
+    border-color: gold; 
+}
+
+td{
+    padding: 2px;
+    text-align: right;
+}
+
+tr{
+    display: block;
+    padding-bottom: 0.5em;
+}
+
+tr:nth-child(even){
+    background-color: silver;
+}
+
+thead{
+    background-color: silver;
+}
+
+@media screen and (max-width:500px) {
+   td{
+    display: block;
+   }
+   
+   thead{
+    display: none;
+   }
+
+   td::before{
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+   }
 }
