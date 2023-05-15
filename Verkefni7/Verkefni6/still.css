@@ -82,7 +82,7 @@ aside{
 form{
     border: 1px;
     padding: 5px;
-    border-style: double;
+    border-color: red;
 }
 
     
@@ -101,7 +101,7 @@ form{
 }
 
     
-@media screen and (min width: 600px) {
+@media screen and (min-width: 600px) {
     .dalkur{
         display: grid;
         grid-template-columns: 1fr 1fr;
